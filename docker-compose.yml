@@ -1,4 +1,3 @@
-version: '3.8'
 services:
   aasx-server:
     container_name: aasx-server
@@ -9,5 +8,5 @@ services:
     environment:
       - Kestrel_EndpointsHttp_Url=http://*:5001
     volumes:
-      - C:/Users/joaop/Desktop/FACULDADE/DISSERTAÇÃOFINAL/AAS:/AasxServerBlazor/aasxs
+      - /home/rics/AAS_ZDM/AAS:/AasxServerBlazor/aasxs
     command: --no-security --external-blazor http://localhost:5001
