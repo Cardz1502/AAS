@@ -1342,54 +1342,6 @@
         },
         {
           "category": "",
-          "idShort": "variables10",
-          "semanticId": {
-            "type": "ExternalReference",
-            "keys": [
-              {
-                "type": "GlobalReference",
-                "value": "https://example.com/ids/cd/0182_4162_5052_9620"
-              }
-            ]
-          },
-          "value": [
-            {
-              "category": "",
-              "idShort": "name",
-              "semanticId": {
-                "type": "ModelReference",
-                "keys": [
-                  {
-                    "type": "ConceptDescription",
-                    "value": "https://example.com/ids/cd/9062_4162_5052_0455"
-                  }
-                ]
-              },
-              "valueType": "xs:string",
-              "value": "PrinterState",
-              "modelType": "Property"
-            },
-            {
-              "category": "",
-              "idShort": "value",
-              "semanticId": {
-                "type": "ModelReference",
-                "keys": [
-                  {
-                    "type": "ConceptDescription",
-                    "value": "https://example.com/ids/cd/1162_4162_5052_4762"
-                  }
-                ]
-              },
-              "valueType": "xs:string",
-              "value": "Printing from SD",
-              "modelType": "Property"
-            }
-          ],
-          "modelType": "SubmodelElementCollection"
-        },
-        {
-          "category": "",
           "idShort": "variables11",
           "semanticId": {
             "type": "ExternalReference",
@@ -1479,6 +1431,198 @@
               },
               "valueType": "xs:string",
               "value": "200.0",
+              "modelType": "Property"
+            }
+          ],
+          "modelType": "SubmodelElementCollection"
+        },
+        {
+          "category": "",
+          "idShort": "variables12",
+          "semanticId": {
+            "type": "ExternalReference",
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "value": "https://example.com/ids/cd/0182_4162_5052_9620"
+              }
+            ]
+          },
+          "value": [
+            {
+              "category": "",
+              "idShort": "name",
+              "semanticId": {
+                "type": "ModelReference",
+                "keys": [
+                  {
+                    "type": "ConceptDescription",
+                    "value": "https://example.com/ids/cd/9062_4162_5052_0455"
+                  }
+                ]
+              },
+              "valueType": "xs:string",
+              "value": "Nozzle_Delta",
+              "modelType": "Property"
+            },
+            {
+              "category": "",
+              "idShort": "value",
+              "semanticId": {
+                "type": "ModelReference",
+                "keys": [
+                  {
+                    "type": "ConceptDescription",
+                    "value": "https://example.com/ids/cd/1162_4162_5052_4762"
+                  }
+                ]
+              },
+              "valueType": "xs:string",
+              "value": "0.00012",
+              "modelType": "Property"
+            }
+          ],
+          "modelType": "SubmodelElementCollection"
+        },
+        {
+          "category": "",
+          "idShort": "variables13",
+          "semanticId": {
+            "type": "ExternalReference",
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "value": "https://example.com/ids/cd/0182_4162_5052_9620"
+              }
+            ]
+          },
+          "value": [
+            {
+              "category": "",
+              "idShort": "name",
+              "semanticId": {
+                "type": "ModelReference",
+                "keys": [
+                  {
+                    "type": "ConceptDescription",
+                    "value": "https://example.com/ids/cd/9062_4162_5052_0455"
+                  }
+                ]
+              },
+              "valueType": "xs:string",
+              "value": "Bed_Delta",
+              "modelType": "Property"
+            },
+            {
+              "category": "",
+              "idShort": "value",
+              "semanticId": {
+                "type": "ModelReference",
+                "keys": [
+                  {
+                    "type": "ConceptDescription",
+                    "value": "https://example.com/ids/cd/1162_4162_5052_4762"
+                  }
+                ]
+              },
+              "valueType": "xs:string",
+              "value": "0.00021",
+              "modelType": "Property"
+            }
+          ],
+          "modelType": "SubmodelElementCollection"
+        },
+        {
+          "category": "",
+          "idShort": "variables14",
+          "semanticId": {
+            "type": "ExternalReference",
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "value": "https://example.com/ids/cd/0182_4162_5052_9620"
+              }
+            ]
+          },
+          "value": [
+            {
+              "category": "",
+              "idShort": "name",
+              "semanticId": {
+                "type": "ModelReference",
+                "keys": [
+                  {
+                    "type": "ConceptDescription",
+                    "value": "https://example.com/ids/cd/9062_4162_5052_0455"
+                  }
+                ]
+              },
+              "valueType": "xs:string",
+              "value": "Nozzle_PWM",
+              "modelType": "Property"
+            },
+            {
+              "category": "",
+              "idShort": "value",
+              "semanticId": {
+                "type": "ModelReference",
+                "keys": [
+                  {
+                    "type": "ConceptDescription",
+                    "value": "https://example.com/ids/cd/1162_4162_5052_4762"
+                  }
+                ]
+              },
+              "valueType": "xs:string",
+              "value": "34.0",
+              "modelType": "Property"
+            }
+          ],
+          "modelType": "SubmodelElementCollection"
+        },
+        {
+          "category": "",
+          "idShort": "variables15",
+          "semanticId": {
+            "type": "ExternalReference",
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "value": "https://example.com/ids/cd/0182_4162_5052_9620"
+              }
+            ]
+          },
+          "value": [
+            {
+              "category": "",
+              "idShort": "name",
+              "semanticId": {
+                "type": "ModelReference",
+                "keys": [
+                  {
+                    "type": "ConceptDescription",
+                    "value": "https://example.com/ids/cd/9062_4162_5052_0455"
+                  }
+                ]
+              },
+              "valueType": "xs:string",
+              "value": "Bed_PWM",
+              "modelType": "Property"
+            },
+            {
+              "category": "",
+              "idShort": "value",
+              "semanticId": {
+                "type": "ModelReference",
+                "keys": [
+                  {
+                    "type": "ConceptDescription",
+                    "value": "https://example.com/ids/cd/1162_4162_5052_4762"
+                  }
+                ]
+              },
+              "valueType": "xs:string",
+              "value": "67.0",
               "modelType": "Property"
             }
           ],
